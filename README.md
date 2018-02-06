@@ -15,3 +15,9 @@ javascript
     javascript compatibility chart : https://kangax.github.io/compat-table/es6/
     Dynamically typed
     
+    person = {name: myName, age: myAge};
+    can access by person.name or person['name']
+
+    function addNumbers(a, b) { return a+b;}
+    console.log(addNumbers(3, 4)); // 7
+    addNumbers("Hello", "World"); // concats
