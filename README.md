@@ -11,4 +11,7 @@ bootstrap
     sizes md sm xs ... etc
 
 javascript
+    complex web app functionality
+    javascript compatibility chart : https://kangax.github.io/compat-table/es6/
+    Dynamically typed
     
