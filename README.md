@@ -21,3 +21,5 @@ javascript
     function addNumbers(a, b) { return a+b;}
     console.log(addNumbers(3, 4)); // 7
     addNumbers("Hello", "World"); // concats
+
+    typescript is the typed version of javascript
