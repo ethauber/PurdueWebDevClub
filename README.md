@@ -9,3 +9,8 @@ Let vs var - var does not work with block scopes but let does (always use let)
 
 npmjs.com is a good source
 
+writing a note taking app
+    npm install -g @angular/cli
+        keeps bundle size small
+        auto generates components
+    ng new noteTakingApp
