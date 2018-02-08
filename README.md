@@ -9,8 +9,13 @@ Let vs var - var does not work with block scopes but let does (always use let)
 
 npmjs.com is a good source
 
+e2e - end to end (for testing e.g. logging in clicks through application)
+
 writing a note taking app
     npm install -g @angular/cli
         keeps bundle size small
         auto generates components
     ng new noteTakingApp
+    ctrl+click on imports takes to file
+    ng serve
+        creates server
