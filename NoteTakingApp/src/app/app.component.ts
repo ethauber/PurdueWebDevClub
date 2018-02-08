@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { setTimeout } from 'timers';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,17 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
+  notes = [
+    {
+      title: 'Finish Laundry',
+      description: 'By midnight'
+    },
+    {
+      title: 'Finish CS408 get the design doc done',
+      description: 'DO IT'
+    }
+  ]
+  constructor() {
+    
+  }
 }
